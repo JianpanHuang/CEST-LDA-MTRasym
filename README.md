@@ -12,7 +12,7 @@ The demo data is a simulation data created using 5-pool Bloch-McConnell equation
 
 **You can change the data to your own CEST data, which must include CEST images (img), frequency offsets (offs) and ROI (roi).**
 
-The analysis process also include the following procedures:
+The analysis process include the following procedures:
 
 1. Denoising using MLSVD (optional)
 3. DeltaB0 map generation and B0 correction
