@@ -24,7 +24,7 @@ After running the code, you will see the following fitting process and results:
 
 <img width="1003" alt="image" src="https://github.com/JianpanHuang/CEST-LDA-MTRasym/assets/43700029/29303653-c137-4300-9642-9d753ee7ca1d">
 
-References: 
+If you use the code, please consider citing the references:
 
 [1] Pemmasani Prabakaran R S, Park S W, Lai J H C, et al. Deep‐learning‐based super‐resolution for accelerating chemical exchange saturation transfer MRI. NMR in Biomedicine, 2024: e5130.
 
