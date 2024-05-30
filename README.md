@@ -20,7 +20,7 @@ Lorentzian difference analysis (LDA):
 
 Magnetization transfer ratio asymmetry (MTRasm):
 
-<img width="1000" alt="image" src="https://github.com/JianpanHuang/CEST-MPLF/assets/43700029/46a8cb0f-8e73-4348-a9b5-6bb41faf9ddb">
+<img width="1003" alt="image" src="https://github.com/JianpanHuang/CEST-LDA-MTRasym/assets/43700029/29303653-c137-4300-9642-9d753ee7ca1d">
 
 References: 
 
