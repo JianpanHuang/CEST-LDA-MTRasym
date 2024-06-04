@@ -13,7 +13,7 @@ rot_ang = 0; % Rotate the image when necessary (in angle degree)
 %% Load data
 load([filepath,filesep,filename]); % The mat file includes CEST images (img), frequency offsets (offs) and ROI (roi)
 if ~exist("offs","var")
-    error("Please define the variable 'offs' -- list of saturatiion frequency offsets!")
+    error("Please define the variable 'offs' (list of saturatiion frequency offsets) before this if sentence")
 end
 if length(size(img)) == 3
     img_temp = img;
