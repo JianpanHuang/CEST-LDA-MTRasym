@@ -12,12 +12,19 @@ rot_ang = 0; % Rotate the image when necessary (in angle degree)
 
 %% Load data
 load([filepath,filesep,filename]); % The mat file includes CEST images (img), frequency offsets (offs) and ROI (roi)
+if ~exist("offs","var")
+    error("Please define the variable 'offs' -- list of saturatiion frequency offsets!")
+end
 if length(size(img)) == 3
     img_temp = img;
     clear img;
     img(:,:,1,:) = img_temp;
 end
-% Seperate M0 and CEST images
+if ~exist("roi","var")
+    roi = draw_load_roi(filepath, img(:,:,:,1), 'roi', 'polygon');
+end
+
+%% Seperate M0 and CEST images
 img_m0 = img(:,:,:,1);
 img(:,:,:,1) = [];
 offs(1) = [];
