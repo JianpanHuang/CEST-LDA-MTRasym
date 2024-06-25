@@ -1,6 +1,6 @@
 # CEST-LDA-MTRasym
 
-**CEST processing using Lorentzian difference analysis (LDA) and magnetization transfer ratio asymmetry (MTRasm) with inverse Z-spectrum analysis**
+**CEST processing using Lorentzian difference analysis (LDA) and magnetization transfer ratio asymmetry (MTRasym) with inverse Z-spectrum analysis**
 
 Author: Jianpan Huang
 
